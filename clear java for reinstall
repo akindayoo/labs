@@ -4,3 +4,10 @@ sudo apt purge -y openjdk-11-jre-headless
 sudo apt purge -y openjdk-8-jre-headless
 sudo apt purge -y default-jdk
 and reinstalling has resolved the issue
+
+==============================================
+
+Jenkins
+
+sudo systemctl start jenkins
+sudo systemctl status jenkins
